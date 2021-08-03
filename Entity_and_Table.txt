@@ -1,0 +1,19 @@
+Entity -> 데이터베이스 내에서 식별이 가능한 객체(개체), 실제로 데이터베이스나 SQL 에 존재하지 않는 개념
+	-> 테이블 될 수 있음
+	-> Attribute (속성)의 집합
+	
+	-> 구조
+	1. Entity
+	2. 속성(Attribute)
+	3. 관계(Relation)
+	4. Key Group
+
+Table -> 데이터베이스 내에서 물리적인 구조, SQL에 실제로 존재
+	-> Entity 가 물리 모델링 안에서는 `Table`로 불린다.
+	-> 추상적인 Entity(또는 개념)들은 `Table`이라고 부를 수가 없다.
+
+	-> 구조
+	1. Table
+	2. 컬럼(Column)
+	3. 관계(Relation)
+	4. Index
